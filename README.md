@@ -9,3 +9,10 @@ https://itunes.apple.com/at/app/basewar/id709940184?mt=8&ign-mpt=uo%3D4
 The repositiory contains:
 * client --> Client implementation.
 * server --> Quick and dirty server implementation.
+
+
+GIT version vs app store version:
+The version available here is the app store version before taking down the server.
+Thus, if you test the current version on the app store you will recognize following missing points:
+- Multiplayer
+- Feedback button in main menu
