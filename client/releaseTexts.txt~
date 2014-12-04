@@ -1,0 +1,280 @@
+========================================
+
+Version 3.8 (previous Version: 3.7):
+
+============english
+Features:
+* Added a new race called chaos
+** AI only
+** AI will have a new unit set every spawn 
+* 5 units of the same sort will now merge into a champion unit (5 times stronger; marked at the healthbar)
+* Added sound (visit the forum for credit)
+* Smooth auto cam
+
+Balancing:
+* Increased Soldier dps from 35 to 40
+* Increased Tank dps from 75 to 85
+* Increased mana regeneration upgrade from 15 to 20 percent
+* Increased mana pool upgrade from 15 to 20 percent
+
+
+Bug fixes:
+* Range units do have the intended dps now.
+* Indication of quit/timeout players fixed in network games (+ switch to AI).
+
+
+Other changes:
+* Nicer loading screen
+* Increased speed of projectiles
+* Removed projectile from Modern Soldier
+
+============german
+Verbesserungen:
+* Das neue Race Chaos wurde hinzugefügt
+** Nur verfügbar für Computer
+** Computer bekommt jede Runde neue Einheiten
+* 5 gleiche Einheiten werden zu einer Champion Einheit (5 mal stärker; markiert beim Lebensbalken)
+* Sound hinzugefügt (besuche das Forum für Credits)
+* Bessere auto Kamera
+
+Balancing:
+* Soldier dps von 35 auf 40 erhöht
+* Tank dps von 75 auf 85 erhöht
+* Mana regeneration upgrade von 15 auf 20 Prozent erhöht
+* Mana pool upgrade von 15 auf 20  Prozent erhöht
+
+
+Bug fixes:
+* Einheiten mit Projektilen haben nun die richtige dps.
+* Markierung von timeout Spielern gefixed in Network Spielen (+ übernehmen von AI).
+
+
+Andere Änderungen:
+* Schöneres Ladefenster
+* Geschwindigkeit von projektilen erhöht.
+* Modern Soldier hat nun kein Projektil mehr.
+
+========================================
+
+Version 3.6 (previous Version: 3.3):
+
+Introduction videos available:
+* Tutorial: http://youtu.be/i6Vbelflb0w
+* Survival mode: http://youtu.be/6nfDThkicHM
+
+GUI changes:
+* Added background objects to the game field.
+* Added random background color to the game field.
+
+Unit changes:
+* Reduced Robot hit points to 3500 (from 4500).
+* Robot is now able to use "Last Stand".
+* Reduced Golem hit points to 2200 (from 2400).
+* Golem is now able to use "Last Stand".
+* Baron now uses "Despair" at 30% hp.
+* Daemon now uses "Despair" at 30% hp.
+* Tower starts now with 2000 hp, 70 dps and 40 hp regeneration/seconds. Every one minute (for 10 minutes) the tower will get an upgrade at each of this values (*1.15). This forces the players to build units at the start.
+* Base starts now with 4000 hp, 70 dps and 80 hp regeneration/seconds. Every one minute (for 10 minutes) the base will get an upgrade at each of this values (*1.15). This forces the players to build units at the start.
+* Archer, Goblin and Ranger receive a skill to reduce healing taken by 50% for 10 seconds.
+
+Other changes:
+* Survival mode is now easier by 25%.
+* Added best survival time to game statistic.
+
+Bug fixes:
+* Fixed a bug which crashed the game very rarely.
+* Fixed a bug in game statistic display.
+* Fixed a bug in the tutorial.
+* Fixed the animation speed change of attack and move animations if currently active.
+
+
+Einführungsvideos verfügbar:
+* Tutorial: http://youtu.be/i6Vbelflb0w
+* Überlebensmodus: http://youtu.be/6nfDThkicHM
+
+Änderungen der GUI:
+* Das Spielfeld hat jetzt Hintergrundobjekte.
+* Die Hintergrundfarbe des Spielfeldes wird zufällig ausgewählt.
+
+Änderungen der Einheiten:
+* Robot hit points auf 3500 gesenkt (früher 4500).
+* Robot hat jetzt die Fähigkeit "Last Stand".
+* Golem hit points auf 2200 gesenkt (früher 2400).
+* Golem hat jetzt die Fähigkeit "Last Stand".
+* Baron aktiviert die Fähigkeit "Despair" bei 30% hp.
+* Daemon aktiviert die Fähigkeit "Despair" bei 30% hp.
+* Der Turm hat jetzt 2000 hp, 70 dps und 40 hp Wiederauffrischung/Sekunde. Die ersten 10 Minuten werden pro Minute diese Werte um 15% erhöht. Dadurch müssen gleich zu Beginn Einheiten gebaut werden.
+* Die Basis hat jetzt 4000 hp, 70 dps und 80 hp Wiederauffrischung/Sekunde. Die ersten 10 Minuten werden pro Minute diese Werte um 15% erhöht. Dadurch müssen gleich zu Beginn Einheiten gebaut werden.
+
+Weitere Änderungen:
+* Der Überlebensmodus wurde um 25% einfacher gemacht.
+* Die beste Überlebenszeit wird in den Spielstatistiken aufgeführt.
+
+Fehlerbehebungen:
+* Selten auftretender Absturz behoben.
+* Fehlerbehebung in der Anzeige der Spielstatistiken.
+* Fehler im Tutorial behoben.
+* Angriffs- und Bewegungsanimationen verbessert.
+
+
+========================================
+
+Version 3.3 (previous Version: 3.2):
+
+Features:
+* Added difficulty level (easy, normal, hard, very hard, hell) for AI player; before version 3.3 AI was set to normal
+* Added mana to units. Skills will now be trigged with mana instead of a cool down
+* Added possibility to upgrade mana & mana regeneration
+* Added possibility to upgrade skills
+
+Other changes:
+* Improved armor upgrade. (Now it is -5% damage taken per upgrade)
+* Changed upgrade of attack damage, run speed and hit points to (1.15^upgradeNum) * hitpoints [previously: (1 + (upgradeNum*0.15)) * hitpoints ]
+
+GUI improvements:
+* Unitinfo menu (menu to the right) is renamed to info menu
+* Improved usability of the info menu
+* Added a section "button info" to the info menu. If you tap on a button in this section you will see its behaviour.
+* New health bar design
+* Added game tips at loading screen
+* Units with skills will have a mana bar under the health bar
+* Added the possibility to hide the health bar
+
+For balancing / unit changes, please see the forums: http://www.plankes-projects.com/basewar/forum/viewtopic.php?f=9&t=47&p=86
+
+
+Neu:
+* Verschiedene Schwierigkeitsgrade für den Computergegner hinzugefügt (leicht, normal, schwer, sehr schwer, teuflisch). Frühere Versionen entsprechen der Schwierigkeit “normal”
+* Einheiten haben jetzt Mana. Die Fähigkeiten kosten nun Mana anstelle des Cool-downs.
+* Mana-Kapazität und Regeneration kann erhöht werden.
+* Die Fähigkeiten können nun auch erhöht werden.
+
+Änderungen:
+* Rüstungsverbesserung wurde verstärkt (Jetzt -5% pro Verbesserung)
+* Angriffsschaden, Laufgeschwindigkeit und Lebenspunkte verbessern sich jetzt nach einer Potenz: Faktor = 1.15^upgradeNum [früher linear: Faktor = 1 + (upgradeNum*0.15) ]
+
+Verbesserungen der Oberfläche:
+* Einheiten-Info Menü (Menü rechts) heißt jetzt nur noch Info-Menü
+* Bedienung des Info-Menüs verbessert
+* Das Informationsmenü zeigt jetzt auch Infos zu den einzelnen Knöpfen an
+* Lebensdaueranzeige überarbeitet
+* Spiel-Tipps werden im Ladebildschirm angezeigt
+* Einheiten, die Mana haben, haben dies in der Lebensdaueranzeige integriert
+* Lebensdaueranzeige kann ausgeblendet werden
+
+Änderungen zu den Einheiten können im Forum nachgelesen werden (Englisch): http://www.plankes-projects.com/basewar/forum/viewtopic.php?f=9&t=47&p=86
+
+
+========================================
+
+Version 3.2 (previous Version: 3.0):
+
+Features:
+* Unit info now shows the current status of a unit. (Before, there was only the base status without updates displayed)
+* A new control element that shows status of all (including enemy) units. (Tap the bar at the right side of the screen)
+* Changing the armour info to following style: "Magic damage taken is reduced to xx%"
+* Displaying duration of each unit on the field (max. 3 rounds)
+* New health bar
+
+Unit changes & balancing:
+* Renamed "Femage" of race Daemon to "Frost mage"
+* Renamed "Archer" of race Daemon to "Ranger"
+* Renamed "Troll" of race Ninja to "Goblin"
+* Decreased Frost mage dps to 80.
+* Increased Werewolf hit points to 1000
+* Increased Werewolf costs to 250
+* Decreased Minion hit points to 1250
+* Decreased Knight hit points to 1250
+* Decreased Skeleton dps to 200 (Rage skill still increases dps and attack speed by 50%)
+* Reduced Tank and Soldier attack speed --> dps stays the same --> more damage per hit
+* Changed attack of Soldier and Tank: Primary target 100% dmg, 4 other targets 50% dmg.
+** Increased Soldier dps to 50 (on 5 targets same dps as before)
+** Increased Tank dps to 110 (on 5 targets same dps as before)
+
+Bug fixes:
+* Fixed a bug which results in unresponsive screen parts (e.g.: At moving game field or pinch zoom)
+
+
+Neu:
+* Einheiteninformation zeigt jetzt den aktuellen Status der Einheit. (Früher wurden nur die Startinformationen gezeigt)
+* Ein neues Menü um den Einheitenstatus aller (auch gegnerischer) Einheiten anzuzeigen. (Tippen Sie dazu die Leiste am rechten Bildschirmrand)
+* Die Dauer, die eine Einheit jetzt auf dem Spielfeld ist (maximal 3 Runden), wird unter der Lebensenergie angezeigt
+* Eine neue Darstellung der Lebensenergie
+
+Änderungen & Abgleichungen:
+* Der Informationstext für die Rüstung wurde wie folgt geändert: "Magic damage taken is reduced to xx%" (Erhaltener Magie-Schaden wird auf xx% reduziert)
+* Einheit umbenannt "Femage" der Daemon-Rasse zu "Frost mage"
+* Einheit umbenannt "Archer" der Daemon-Rasse zu "Ranger"
+* Einheit umbenannt "Troll" der Ninja-Rasse zu "Goblin"
+* Frost mage dps auf 80 reduziert
+* Werewolf hit points auf 1000 erhöht
+* Werewolf Kosten auf 250 erhöht
+* Minion hit points auf 1250 reduziert
+* Knight hit points auf 1250 reduziert
+* Skeleton dps auf 200 reduziert (Die Fähigkeit "Rage" erhöht weiterhin die dps und die Angriffsgeschwindigkeit um 50%)
+* Tank und Soldier Angriffsgeschwindigkeiten reduziert --> die dps bleiben gleich --> mehr Schaden pro Treffer
+* Angriff von Soldier und Tank geändert: Primäres Ziel erhält 100% dmg, 4 zusätzliche Ziele je 50% dmg.
+** Soldier dps auf 50 erhöht
+** Tank dps auf 110 erhöht
+
+Verbesserungen:
+* Fehler behoben, bei dem Teile vom Spielfeld nicht mehr auf Touch-Eingaben reagierten
+
+========================================
+
+Version 3.0 (previous Version: 2.5):
+
+Features:
+* Added a tutorial to explain the game mechanics
+* Added a third race
+* Added random race (units from existing races are randomly chosen to form a new temporary race)
+* Added special skills to various units
+* Added game & graphical effects
+
+Changes:
+* Network game now also synchronizes spawn position
+* Unit upgrades now are only valid for new units (not for those already on the field)
+
+Fixes:
+* Minor bug fixes
+
+
+Neu:
+* Tutorial hinzugefügt
+* Neue Rasse hinzugefügt
+* Zufallsrasse (es werden Einheiten der bestehenden Rassen zufällig zusammengesetzt)
+* Einige Einheiten haben jetzt spezielle Fähigkeiten
+* Grafikeffekte für Spezialfähigkeiten
+
+Änderungen:
+* Netzwerkspiele synchronisieren jetzt auch die Startposition der Einheiten
+* Einheitenverbesserungen gelten nur für neue Einheiten, derzeit auf dem Spielfeld befindliche Einheiten behalten ihre Werte
+
+Verbesserungen:
+* Kleine Verbesserungen
+
+========================================
+
+Version 2.5 (previous Version: 2.3):
+
+Features:
+* Added game statistics feature: number of played/won/lost games is recorded for different game types (local, local vs. human, online)
+* BaseWar now requires the player to have won at least two games against the AI before playing online battles
+* The tower and the castle may not be healed by units any more. Instead, they regenerate health points on their own.
+
+Fixes:
+* Displaying indicator if online player is AI or human
+* Improved buy menu behavior
+* Fixed in-game menu open/close animation speed
+* Fixed some spelling and typo mistakes in the menus
+
+Änderungen:
+* Spielstatistiken hinzugefügt: die Anzahl der gespielten/gewonnenen/verlorenen Spiele wird für die verschiedenen Spielvarianten aufgezeichnet
+* Um BaseWar Online zu spielen, müssen nun zumindest 2 Spiele gegen den Computer gewonnen werden.
+* Der Turm und die Burg können nun nicht mehr von Einheiten geheilt werden. Dafür regenerieren sie sich langsam selbst.
+
+Verbesserungen:
+* Es wird nun bei Online-Spielen angezeigt, ob der Spieler ein Computergegner oder ein menschlicher Spieler ist
+* Performance des Kaufmenüs wurde verbessert
+* Animation des Kaufmenüs für unterschiedliche Bildschirmgrößen angepasst
+* Fehler in den Menütexten behoben

@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		<key>jump1_modernSoldier.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{198, 2}, {119, 186}}</string>
+			<key>offset</key>
+			<string>{10, -10}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{48, 45}, {119, 186}}</string>
+			<key>sourceSize</key>
+			<string>{195, 256}</string>
+		</dict>
+		<key>jump2_modernSoldier.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{476, 582}, {127, 230}}</string>
+			<key>offset</key>
+			<string>{-10, 13}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{24, 0}, {127, 230}}</string>
+			<key>sourceSize</key>
+			<string>{195, 256}</string>
+		</dict>
+		<key>jump3_modernSoldier.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2, 2}, {87, 168}}</string>
+			<key>offset</key>
+			<string>{-5, -23}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{49, 67}, {87, 168}}</string>
+			<key>sourceSize</key>
+			<string>{195, 256}</string>
+		</dict>
+		<key>jump4_modernSoldier.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{605, 582}, {127, 230}}</string>
+			<key>offset</key>
+			<string>{-10, 13}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{24, 0}, {127, 230}}</string>
+			<key>sourceSize</key>
+			<string>{195, 256}</string>
+		</dict>
+		<key>jump5_modernSoldier.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{319, 2}, {119, 186}}</string>
+			<key>offset</key>
+			<string>{10, -10}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{48, 45}, {119, 186}}</string>
+			<key>sourceSize</key>
+			<string>{195, 256}</string>
+		</dict>
+		<key>jump6_modernSoldier.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{377, 582}, {97, 208}}</string>
+			<key>offset</key>
+			<string>{7, -5}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{56, 29}, {97, 208}}</string>
+			<key>sourceSize</key>
+			<string>{195, 256}</string>
+		</dict>
+		<key>jump7_modernSoldier.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{91, 2}, {105, 186}}</string>
+			<key>offset</key>
+			<string>{-1, 16}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{44, 19}, {105, 186}}</string>
+			<key>sourceSize</key>
+			<string>{195, 256}</string>
+		</dict>
+		<key>prepshoot1_modernSoldier.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{650, 386}, {133, 192}}</string>
+			<key>offset</key>
+			<string>{9, -5}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{40, 37}, {133, 192}}</string>
+			<key>sourceSize</key>
+			<string>{195, 256}</string>
+		</dict>
+		<key>prepshoot2_modernSoldier.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{816, 194}, {125, 190}}</string>
+			<key>offset</key>
+			<string>{11, -8}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{46, 41}, {125, 190}}</string>
+			<key>sourceSize</key>
+			<string>{195, 256}</string>
+		</dict>
+		<key>prepshoot3_modernSoldier.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{440, 2}, {117, 188}}</string>
+			<key>offset</key>
+			<string>{11, -14}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{50, 48}, {117, 188}}</string>
+			<key>sourceSize</key>
+			<string>{195, 256}</string>
+		</dict>
+		<key>running1_modernSoldier.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{301, 386}, {95, 192}}</string>
+			<key>offset</key>
+			<string>{10, -7}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{60, 39}, {95, 192}}</string>
+			<key>sourceSize</key>
+			<string>{195, 256}</string>
+		</dict>
+		<key>running10_modernSoldier.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{204, 386}, {95, 192}}</string>
+			<key>offset</key>
+			<string>{10, -7}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{60, 39}, {95, 192}}</string>
+			<key>sourceSize</key>
+			<string>{195, 256}</string>
+		</dict>
+		<key>running2_modernSoldier.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{570, 194}, {115, 190}}</string>
+			<key>offset</key>
+			<string>{6, -6}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{46, 39}, {115, 190}}</string>
+			<key>sourceSize</key>
+			<string>{195, 256}</string>
+		</dict>
+		<key>running3_modernSoldier.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{398, 386}, {133, 192}}</string>
+			<key>offset</key>
+			<string>{2, -8}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{33, 40}, {133, 192}}</string>
+			<key>sourceSize</key>
+			<string>{195, 256}</string>
+		</dict>
+		<key>running4_modernSoldier.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{155, 194}, {147, 190}}</string>
+			<key>offset</key>
+			<string>{1, -10}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{25, 43}, {147, 190}}</string>
+			<key>sourceSize</key>
+			<string>{195, 256}</string>
+		</dict>
+		<key>running5_modernSoldier.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{785, 386}, {127, 194}}</string>
+			<key>offset</key>
+			<string>{1, -13}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{35, 44}, {127, 194}}</string>
+			<key>sourceSize</key>
+			<string>{195, 256}</string>
+		</dict>
+		<key>running6_modernSoldier.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{127, 582}, {135, 198}}</string>
+			<key>offset</key>
+			<string>{5, -15}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{35, 44}, {135, 198}}</string>
+			<key>sourceSize</key>
+			<string>{195, 256}</string>
+		</dict>
+		<key>running7_modernSoldier.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{264, 582}, {111, 200}}</string>
+			<key>offset</key>
+			<string>{5, -13}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{47, 41}, {111, 200}}</string>
+			<key>sourceSize</key>
+			<string>{195, 256}</string>
+		</dict>
+		<key>running8_modernSoldier.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2, 582}, {123, 198}}</string>
+			<key>offset</key>
+			<string>{0, -9}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{36, 38}, {123, 198}}</string>
+			<key>sourceSize</key>
+			<string>{195, 256}</string>
+		</dict>
+		<key>running9_modernSoldier.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{533, 386}, {115, 192}}</string>
+			<key>offset</key>
+			<string>{0, -6}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{40, 38}, {115, 192}}</string>
+			<key>sourceSize</key>
+			<string>{195, 256}</string>
+		</dict>
+		<key>shooting1_modernSoldier.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{687, 194}, {127, 190}}</string>
+			<key>offset</key>
+			<string>{8, -13}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{42, 46}, {127, 190}}</string>
+			<key>sourceSize</key>
+			<string>{195, 256}</string>
+		</dict>
+		<key>shooting2_modernSoldier.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2, 194}, {151, 190}}</string>
+			<key>offset</key>
+			<string>{20, -13}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{42, 46}, {151, 190}}</string>
+			<key>sourceSize</key>
+			<string>{195, 256}</string>
+		</dict>
+		<key>shooting3_modernSoldier.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{423, 194}, {145, 190}}</string>
+			<key>offset</key>
+			<string>{17, -13}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{42, 46}, {145, 190}}</string>
+			<key>sourceSize</key>
+			<string>{195, 256}</string>
+		</dict>
+		<key>shooting4_modernSoldier.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{304, 194}, {117, 190}}</string>
+			<key>offset</key>
+			<string>{3, -13}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{42, 46}, {117, 190}}</string>
+			<key>sourceSize</key>
+			<string>{195, 256}</string>
+		</dict>
+		<key>shooting5_modernSoldier.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{771, 2}, {121, 190}}</string>
+			<key>offset</key>
+			<string>{5, -13}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{42, 46}, {121, 190}}</string>
+			<key>sourceSize</key>
+			<string>{195, 256}</string>
+		</dict>
+		<key>shooting6_modernSoldier.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{646, 2}, {123, 190}}</string>
+			<key>offset</key>
+			<string>{6, -13}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{42, 46}, {123, 190}}</string>
+			<key>sourceSize</key>
+			<string>{195, 256}</string>
+		</dict>
+		<key>shooting7_modernSoldier.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{894, 2}, {127, 190}}</string>
+			<key>offset</key>
+			<string>{8, -13}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{42, 46}, {127, 190}}</string>
+			<key>sourceSize</key>
+			<string>{195, 256}</string>
+		</dict>
+		<key>standing_modernSoldier.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{559, 2}, {85, 190}}</string>
+			<key>offset</key>
+			<string>{1, -6}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{56, 39}, {85, 190}}</string>
+			<key>sourceSize</key>
+			<string>{195, 256}</string>
+		</dict>
+		<key>turn1_modernSoldier.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{914, 386}, {97, 194}}</string>
+			<key>offset</key>
+			<string>{-4, -8}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{45, 39}, {97, 194}}</string>
+			<key>sourceSize</key>
+			<string>{195, 256}</string>
+		</dict>
+		<key>turn2_modernSoldier.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{95, 386}, {107, 192}}</string>
+			<key>offset</key>
+			<string>{-10, -5}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{34, 37}, {107, 192}}</string>
+			<key>sourceSize</key>
+			<string>{195, 256}</string>
+		</dict>
+		<key>turn3_modernSoldier.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2, 386}, {91, 192}}</string>
+			<key>offset</key>
+			<string>{-9, -5}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{43, 37}, {91, 192}}</string>
+			<key>sourceSize</key>
+			<string>{195, 256}</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>2</integer>
+		<key>size</key>
+		<string>{1024, 1024}</string>
+	</dict>
+</dict>
+</plist>

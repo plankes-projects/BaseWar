@@ -1,0 +1,89 @@
+TODOS:
+	Vor neuer release version mit neuen unit stats:
+		change api key
+	
+	Vor release:	
+			
+	high prio:
+		Config Layer: 
+			ATTENTION AT SLIDE, IT DO NOT WORK ON IOS
+			* effect sound volume
+			* background sound volume
+			* send info to game server
+
+	Normal Priority:
+		Unit merge:
+			Merge 5 units into one --> orange bar
+			Merge 3 units into one --> yellow mark
+			
+		
+		AutoCam:
+			Auto cam. Bei zoom und wand Berührung kein smooth cam
+
+		Achievements:
+			* master upgrade
+				upgrade xxx 7 times vs the computer
+				100, 200, 400, 800, 1600, 3200, 6400
+				gibt 4(difficulty)*8(upgrades) achivements 
+					(easy, normal, hard, very hard)
+			* ultimate unit
+				upgrade all stats of a unit 5 times vs the 
+				computer 				
+
+		Umfrage system -->
+			Option für Umfrage teilnehmen ja/nein --> standard ja.
+			ab 2 stunden spielzeit
+			wenn ja dann frage bei game start, ja / nein antwort
+				--> flag mit frage beantwortet, int ja/nein 1/0, an server gesendet 2/0
+				--> xor, an server senden mit game info
+			noch eine flag mit currentQuestionVersion. --> wenn != derzeitige frage fragen und updaten
+	
+
+		explode animation for base down --> than win screen
+			
+
+		Healthbar:
+			vorderer layer zeichnen.
+		
+		steal buff
+			--> trigger onRemove and onApply
+		
+		Debuffs:
+			Damage taken increased.
+			Damage done decreased.
+
+		possibility to set game speed --> unlock with network games 30+
+	
+		somehow network sync perfect?
+			--> possible on mobile devices without lags?
+
+		somehow network sync units better.
+			--> make sure on every device the right number of units are spawned.
+			--> At the moment if you build a unit 0.1 seconds before spawn it will not spawn at the other devices.
+
+		use new gameStatistic system to pair players online
+			--> win/los = x   use x to join players
+
+		Network queue:
+			Requeue clients if someone leaves at gamestart countdown
+		
+	low proi:
+		
+		Somehow show all players name in network game
+			show next spawn.
+			Maybe like this: (rearange order after each spawn)
+			Left1
+			Left2
+			--vs--
+			Right1
+			Right2
+			
+		logic implementieren, dass units nicht genau übereinenader laufen können		
+			(optimales Platzieren von quadraten?)
+
+
+
+	Bugs:
+		Network:
+			Sometimes players are not listed at queue countdown
+		

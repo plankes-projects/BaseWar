@@ -1,0 +1,29 @@
+Avoid sleep
+	Android - Cocos2dxActivity.java
+		    public Cocos2dxGLSurfaceView onCreateView() {
+				Cocos2dxGLSurfaceView ret = new Cocos2dxGLSurfaceView(this);
+				ret.setKeepScreenOn(true);
+				return ret;
+			}
+
+		- For use of HttpClient
+			/usr/bin/ld: /home/dmen/workspace/cocos2d-x-2.2.0/lib/linux/debug/libextension.a(HttpClient.o): undefined reference to symbol 'pthread_create@@GLIBC_2.2.5'
+			/lib/x86_64-linux-gnu/libpthread.so.0: error adding symbols: DSO missing from command line
+
+
+    			Edit “/cocos2d-x-2.2.0/cocos2dx/proj.linux/cocos2dx.mk”
+    			Add “-fuse-ld=gold” to “CCFLAGS” and “CXXFLAGS”
+
+
+
+
+			
+	IOS:
+		AppController.mm - didFinishLaunchingWithOptions
+		add
+			[[UIApplication sharedApplication] setStatusBarHidden: YES];
+			[[UIApplication sharedApplication] setIdleTimerDisabled:YES];
+	
+	Windows:
+	
+
