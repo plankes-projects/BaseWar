@@ -16,3 +16,7 @@ The version available here is the app store version before taking down the serve
 Thus, if you test the current version on the app store you will recognize following missing points:
 - Multiplayer
 - Feedback button in main menu
+
+
+If there is any interest I will write about my experience with this project on my blog at http://plankes-projects.weebly.com/
+Just let me know if someone is interested.
