@@ -5,6 +5,11 @@ BaseWar is a cocos2d-x game available on the Android and iOS app store.
 https://play.google.com/store/apps/details?id=com.plkl&hl=en
 https://itunes.apple.com/at/app/basewar/id709940184?mt=8&ign-mpt=uo%3D4
 
+Game in action:
+https://www.youtube.com/watch?v=_-_zFMIM-1Y
+https://www.youtube.com/watch?v=6nfDThkicHM
+https://www.youtube.com/watch?v=i6Vbelflb0w
+
 
 The repositiory contains:
 * client --> Client implementation.
